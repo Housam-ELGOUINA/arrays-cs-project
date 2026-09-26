@@ -22,8 +22,9 @@ public class BankAccount {
             return;
         }
         this.currentBalance += amount ;
-        this.transactions  = Arrays.copyOf(this.transactions  , this.transactions.length +1);
+        this.transactions  = Arrays.copyOf(this.transactions  , this.transactionsCount +1);
         this.transactions[this.transactions.length -1] =  amount ;
+        this.transactionsCount ++ ;
 
     }
 
@@ -37,6 +38,8 @@ public class BankAccount {
 
         this.transactions = Arrays.copyOf(this.transactions , this.transactions.length +1) ;
         this.transactions[this.transactions.length -1] =  -amount ;
+
+        this.transactionsCount ++ ;
 
 
     }
