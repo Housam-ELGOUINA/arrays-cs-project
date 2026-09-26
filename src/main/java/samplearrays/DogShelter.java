@@ -45,6 +45,7 @@ public class DogShelter {
         for ( int i = 0 ; i < dogCounts.length; i++ ) {
             System.out.println("Breed " + i + " has " + dogCounts[i] + " dogs.");
         }
+
           //
 
     }

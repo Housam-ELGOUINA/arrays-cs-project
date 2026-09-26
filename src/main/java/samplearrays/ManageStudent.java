@@ -149,6 +149,8 @@ public class ManageStudent {
         System.out.println("the number of adult students is  : " + count ) ;
 
 
+
+
         // 4) Average grade
 
         double average  = averageGrade(arr) ;
