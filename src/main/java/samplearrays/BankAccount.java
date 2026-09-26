@@ -7,7 +7,9 @@ public class BankAccount {
     String name;
     double currentBalance;
     //TO-DO: Initialize an Array with 1000 in size that stores Double called 'transactions' to keep track of the user's transactions
-    Double[] transactions   =  new Double[1000] ;
+    Double[] transactions  = new Double[1000];
+
+    int transactionsCount = 0;
 
     public BankAccount(String name, int startingBalance){
         this.name = name;
@@ -27,7 +29,9 @@ public class BankAccount {
 
     public void withdraw(double amount){
         if (amount > this.currentBalance) {
+            // In case the user tried to withdraw more than what they own in the bank account
             System.out.println("there are insufiscient funds in the bank account !");
+            return;
         }
         this.currentBalance -= amount ;
 
