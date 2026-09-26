@@ -10,6 +10,7 @@ class Student {
     private int grade; // 0..20 or 0..100 as you prefer
 
 
+
     // keep counter private; expose getter only
     private static int numStudent = 0;
 

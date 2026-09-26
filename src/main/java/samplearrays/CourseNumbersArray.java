@@ -14,6 +14,7 @@ public class CourseNumbersArray {
         updatedCourses[7] = 3100 ;
 
 
+
         for ( int x  : updatedCourses) {
             System.out.println(x + " ");
         }

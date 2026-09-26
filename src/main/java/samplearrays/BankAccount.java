@@ -38,6 +38,7 @@ public class BankAccount {
     }
 
 
+
     public void displayTransactions(){
         for (int  i = 0 ;  i < this.transactions.length ;i++ ){
             if (this.transactions[i] >= 0) {

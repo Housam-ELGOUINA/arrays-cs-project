@@ -38,6 +38,7 @@ public class DogShelter {
     public static void deleteBreed(int index) {
         // add your code here
         dogCounts[index] = 0;
+
     }
 
     // Display all dog counts

@@ -144,7 +144,7 @@ public class ManageStudent {
 
         // 3) Count adults
 
-        int count  = countAdults(arr) ;
+        int count  = countAdults(arr ) ;
 
         System.out.println("the number of adult students is  : " + count ) ;
 
